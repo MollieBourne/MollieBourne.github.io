@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <title>Pattern Library</title>
+        <link rel="stylesheet" type="text/css" href="MainCSS.css">
+
+    </head>
+
+    <body>
+        <div class="wrapper">
+            
+            <aside>
+            <nav id="nav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="Navigation.html">Navigation</a></li>
+                    <li><a class="active" href="Buttons.html">Buttons</a></li>
+                    <li><a href="HeaderCarousel.html">Header Carousel</a></li>
+                    <li><a href="CallToActionJumbotron.html">Jumbotron</a></li>
+                    <li><a href="Footer.html">Footer</a></li>
+                    <li><a href="Pagination.html">Pagination</a></li>
+                </ul>
+            </nav>
+            </aside>
+            
+                
+            <main>
+                <h1>Button Types</h1>
+                <div class="Text">
+                <h3> Introduction: </h3>
+                <p>Buttons should be used throughout the site were appropriate some usage for these for each individual will be included.</p> <br/>
+                
+                <h3> Button Components:</h3>
+                
+                <div class="Component">
+                <h3> Default Button:</h3>
+                    <p> This is a gerneric Default Button which can be used anywhere. The usage might change, but the defult styel and interaction stay the same. </p>
+                    <button class="btn">Button</button>
+                    
+                    <div class="code">
+                        <pre> &lt;button class=&quot;btn&quot;&gt;Button&lt;/button&gt;</pre>
+                    </div>
+                    
+                    <div class="css">
+                        <pre> .btn {
+    
+                            border: none;
+                            outline: none;
+                            padding: 20px;
+                            font-size: 1.5em;
+                            background-color: transparent;
+                            color: #333333;
+                            border: solid 3px #D5D5D5;
+                            border-radius: 6px;
+                            transition: all .3s ease-in-out;
+                            width: 200px;
+                            height: auto;
+                            margin-left: 45px;
+
+                        }
+
+
+                        .btn:hover {
+                            border-color: #a2a2a2;
+                            color: #333333; }</pre>
+                    </div>
+                </div>
+                
+                 <div class="Component">
+                    <h3>Button Usage:</h3>
+                    <p>The Type of a button might change for usage as stated below, i.e, Anchor, Button, Or Input type.  </p>
+                
+                    <button class="btn">Button</button>
+                    <input type="submit" class="btn" value="Submit Button">
+                    <a class="btn">Anchor Button</a>
+                    
+                     <div class="code">
+                        <pre> &lt;button class=&quot;btn&quot;&gt;Button&lt;/button&gt;
+                    &lt;input type=&quot;submit&quot; class=&quot;btn&quot; value=&quot;Submit Button&quot;&gt;
+                    &lt;a class=&quot;btn&quot;&gt;Anchor Button&lt;/a&gt;</pre>
+                    </div>
+                    
+                    <div class="css">
+                        <pre>.btn {
+    
+                        border: none;
+                        outline: none;
+                        padding: 20px;
+                        font-size: 1.5em;
+                        background-color: transparent;
+                        color: #333333;
+                        border: solid 3px #D5D5D5;
+                        border-radius: 6px;
+                        transition: all .3s ease-in-out;
+                        width: 200px;
+                        height: auto;
+                        margin-left: 45px;
+
+                    }
+
+
+                    .btn:hover {
+                        border-color: #a2a2a2;
+                        color: #333333; } </pre>
+                    </div>
+                </div>
+                
+                <div class="Component">
+                    <h3> Icon Button:</h3>
+                    <p> Some Buttons May needed icon and these can be added to the default and usage buttons. </p>
+                    <a class="btn">Icon Button <img src="Images/icon.png"></a>
+                    
+                    <div class="code">
+                        <pre>&lt;a class=&quot;btn&quot;&gt;Icon Button &lt;img src=&quot;Images/icon.png&quot;&gt;&lt;/a&gt; </pre>
+                    </div>
+                    
+                    <div class="css">
+                        <pre> .btn {
+    
+    border: none;
+    outline: none;
+    padding: 20px;
+    font-size: 1.5em;
+    background-color: transparent;
+    color: #333333;
+    border: solid 3px #D5D5D5;
+    border-radius: 6px;
+    transition: all .3s ease-in-out;
+    width: 200px;
+    height: auto;
+    margin-left: 45px;
+
+}
+    
+  
+.btn:hover {
+    border-color: #a2a2a2;
+    color: #333333; }
+
+
+.btn img{
+    
+    margin-left: 10px;
+    padding-top: 10px;
+    margin-top: 30px;
+}</pre>
+                    </div>
+                </div>
+                
+                <div class="Component">
+                    <h3> Filled Buttons:</h3>
+                    <p> Filled Buttons May be used throughout the pages and the colours can be changed in the CSS.  </p>
+                    
+                    <button class="btnfill1">Button</button>
+                    <button class="btnfill2">Button</button>
+                    <button class="btnfill3">Button</button>
+                    <button class="btnfill4">Button</button>
+                    <button class="btnfill5">Button</button>
+                    <button class="btnfill6">Button</button>
+                    
+                    <div class="code">
+                        <pre> &lt;button class=&quot;btnfill1&quot;&gt;Button&lt;/button&gt;
+                    &lt;button class=&quot;btnfill2&quot;&gt;Button&lt;/button&gt;
+                    &lt;button class=&quot;btnfill3&quot;&gt;Button&lt;/button&gt;
+                    &lt;button class=&quot;btnfill4&quot;&gt;Button&lt;/button&gt;
+                    &lt;button class=&quot;btnfill5&quot;&gt;Button&lt;/button&gt;
+                    &lt;button class=&quot;btnfill6&quot;&gt;Button&lt;/button&gt;</pre>
+                    </div>
+                    
+                    <div class="css">
+                        <pre> .btnfill1 {
+    
+    border: none;
+    outline: none;
+    padding: 20px;
+    font-size: 1.5em;
+    background-color: blue;
+    color: #333333;
+    border: solid 3px blue;
+    border-radius: 6px;
+    transition: all .3s ease-in-out;
+    width: 200px;
+    height: auto;
+    margin-left: 45px;
+
+}
+    
+  
+.btnfill1:hover {
+    border-color: white;
+    background-color: blue;
+    opacity: 0.5;
+    color: #333333; }</pre>
+                    </div>
+                </div>
+                
+                <div class="Component">
+                    <h3>Button outline Colour</h3>
+                    <p> Buttons with an outlined colour rather than a full colour might be better in some pages so this is an option too. </p>
+                    
+                    <button class="btnfillout1">Button</button>
+                    <button class="btnfillout2">Button</button>
+                    <button class="btnfillout3">Button</button>
+                    <button class="btnfillout4">Button</button>
+                    <button class="btnfillout5">Button</button>
+                    <button class="btnfillout6">Button</button>
+                    
+                    <div class="code">
+                        <pre> &lt;button class=&quot;btnfill1&quot;&gt;Button&lt;/button&gt;
+                    &lt;button class=&quot;btnfill2&quot;&gt;Button&lt;/button&gt;
+                    &lt;button class=&quot;btnfill3&quot;&gt;Button&lt;/button&gt;
+                    &lt;button class=&quot;btnfill4&quot;&gt;Button&lt;/button&gt;
+                    &lt;button class=&quot;btnfill5&quot;&gt;Button&lt;/button&gt;
+                    &lt;button class=&quot;btnfill6&quot;&gt;Button&lt;/button&gt;</pre>
+                    </div>
+                    
+                    <div class="css">
+                        <pre> .btnfillout1 {
+    
+    border: none;
+    outline: none;
+    padding: 20px;
+    font-size: 1.5em;
+    background-color: transparent;
+    color: #333333;
+    border: solid 3px blue;
+    border-radius: 6px;
+    transition: all .3s ease-in-out;
+    width: 200px;
+    height: auto;
+    margin-left: 45px;
+
+}
+    
+  
+.btnfillout1:hover {
+    border-color: blue;
+    background-color: transparent;
+    opacity: 0.5;
+    color: #333333; }</pre>
+                    </div>
+                </div>
+                
+                <div class="Component">
+                    <h3> Small Circular Button</h3>
+                    <p> Shaped buttons might be needed as well. </p>
+                    
+                    <button class="btnshape1">Button</button>
+                    <button class="btnshape2">Button</button>
+                    <button class="btnshape3">Button</button>
+                    <button class="btnshape4">Button</button>
+                    <button class="btnshape5">Button</button>
+                    <button class="btnshape6">Button</button>
+                    
+                    <div class="code">
+                        <pre> &lt;button class=&quot;btnfill1&quot;&gt;Button&lt;/button&gt;
+                    &lt;button class=&quot;btnfill2&quot;&gt;Button&lt;/button&gt;
+                    &lt;button class=&quot;btnfill3&quot;&gt;Button&lt;/button&gt;
+                    &lt;button class=&quot;btnfill4&quot;&gt;Button&lt;/button&gt;
+                    &lt;button class=&quot;btnfill5&quot;&gt;Button&lt;/button&gt;
+                    &lt;button class=&quot;btnfill6&quot;&gt;Button&lt;/button&gt;</pre>
+                    </div>
+                    
+                    <div class="css">
+                        <pre> .btnshape1 {
+    
+    border: none;
+    outline: none;
+    padding: 20px;
+    font-size: 1.5em;
+    background-color: transparent;
+    color: #333333;
+    border: solid 3px blue;
+    border-radius: 6px;
+    transition: all .3s ease-in-out;
+    width: 200px;
+    height: auto;
+    margin-left: 45px;
+    border-radius: 50%;
+
+}
+    
+  
+.btnshape1:hover {
+    border-color: blue;
+    background-color: transparent;
+    opacity: 0.5;
+    color: #333333; }</pre>
+                    </div>
+                </div>
+                    
+                </div>
+                
+            </main>
+        </div> <!--wrapper-->
+    </body>
+</html>
+</html>

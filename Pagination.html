@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <title>Pattern Library</title>
+        <link rel="stylesheet" type="text/css" href="MainCSS.css">
+
+
+    </head>
+
+    <body>
+        <div class="wrapper">
+            
+            <aside>
+            <nav id="nav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="Navigation.html">Navigation</a></li>
+                    <li><a href="Buttons.html">Buttons</a></li>
+                    <li><a href="HeaderCarousel.html">Header Carousel</a></li>
+                    <li><a href="CallToActionJumbotron.html">Jumbotron</a></li>
+                    <li><a href="Footer.html">Footer</a></li>
+                    <li><a class="active" href="Pagination.html">Pagination</a></li>
+                </ul>
+            </nav>
+            </aside>
+            
+                
+            <main>
+                <h1 class="caroH1">Pagination - Page Numbering </h1>
+                <div class="Text">
+                
+                <h3> Introduction: </h3>
+                <p> Pagination should be used to allow users to scroll through pages of related content. An example of this would be blog posts, or an image sheet, for photography. this might be used in a portfilio site</p>
+                <h3> Usage: </h3>
+                    <p> This should be used at the bottom of a page so that there is a clear indication of the number of pages of content to scroll through, like stated above this should be used for the user to scroll through related content pages.</p><br/> 
+                <h3> Pagination Component:</h3><br/>
+                
+               <div class="pagination">
+                        <a href="#">&laquo;</a>
+                        <a href="#">1</a>
+                        <a href="#" class="active">2</a>
+                        <a href="#">3</a>
+                        <a href="#">4</a>
+                        <a href="#">5</a>
+                        <a href="#">6</a>
+                        <a href="#">7</a>
+                        <a href="#">8</a>
+                        <a href="#">9</a>
+                        <a href="#">10</a>
+                        <a href="#">&raquo;</a>
+                </div>
+                
+                    <div class="code">
+                    <pre>   &lt;div class=&quot;pagination&quot;&gt;
+                                    &lt;a href=&quot;#&quot;&gt;&amp;laquo;&lt;/a&gt;
+                                    &lt;a href=&quot;#&quot;&gt;1&lt;/a&gt;
+                                    &lt;a href=&quot;#&quot; class=&quot;active&quot;&gt;2&lt;/a&gt;
+                                    &lt;a href=&quot;#&quot;&gt;3&lt;/a&gt;
+                                    &lt;a href=&quot;#&quot;&gt;4&lt;/a&gt;
+                                    &lt;a href=&quot;#&quot;&gt;5&lt;/a&gt;
+                                    &lt;a href=&quot;#&quot;&gt;6&lt;/a&gt;
+                                    &lt;a href=&quot;#&quot;&gt;7&lt;/a&gt;
+                                    &lt;a href=&quot;#&quot;&gt;8&lt;/a&gt;
+                                    &lt;a href=&quot;#&quot;&gt;9&lt;/a&gt;
+                                    &lt;a href=&quot;#&quot;&gt;10&lt;/a&gt;
+                                    &lt;a href=&quot;#&quot;&gt;&amp;raquo;&lt;/a&gt;
+                            &lt;/div&gt;</pre>
+                    </div>
+                    
+                    <div class="css">
+                        <pre> 
+                        .pagination {
+                            display: inline-block;
+                            font-size: 2.2em;
+                            margin-left: 250px;
+                                    }
+
+                        .pagination a {
+                            color: black;
+                            float: left;
+                            padding: 16px 32px;
+                            text-decoration: none;
+                                        }
+
+                        .pagination a.active {
+                            background-color: #4CAF50;
+                            color: white;
+                            border-radius: 5px;
+                                                }
+
+                        .pagination a:hover:not(.active) {
+                            background-color: #ddd;
+                            border-radius: 5px;
+                                                            }
+                                                </pre>
+                    </div>
+                    
+                </div>
+                
+            </main>
+        </div> <!--wrapper-->
+    </body>
+</html>
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <title>Pattern Library</title>
+        <link rel="stylesheet" type="text/css" href="MainCSS.css">
+
+    </head>
+
+    <body>
+        <div class="wrapper">
+            
+            <aside>
+                
+            <nav id="nav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a class="active" href="Navigation.html">Navigation</a></li>
+                    <li><a href="Buttons.html">Buttons</a></li>
+                    <li><a href="HeaderCarousel.html">Header Carousel</a></li>
+                    <li><a href="CallToActionJumbotron.html">Jumbotron</a></li>
+                    <li><a href="Footer.html">Footer</a></li>
+                    <li><a href="Pagination.html">Pagination</a></li>
+                </ul>
+            </nav>
+            </aside>
+            
+                
+            <main>
+                <h1 class="caroH1"> Navigation Types</h1><br/>
+                <div class="Text">
+                <h3> Introduction: </h3>
+                <p> The navigation provided is the default navigation state that each user will interact with when visiting the site, this provided the links to the other main pages and these links can be changed where necessary, this component should be used in every page that the user interacts with.  </p><br/> 
+                    <h3> Usage:</h3>
+                    <p> Navigation should be used throughout all pages and should be situated at the top of the page so that the user is able to find it and access it easy.  </p><br/>
+                <h3> Navigation Component:</h3>
+                
+                <div id="NavBarCom">
+                    <ul class="NavMenu">
+                        <img id="logo" src="Images/Logo.png">
+                        <li> Portfolio </li>
+                        <li> About </li>
+                        <li> Photography </li>
+                        <li>Contact Info </li>
+                    </ul>
+                </div>
+                    
+                    <div class="code">
+                        <pre>
+                        &lt;div id=&quot;NavBarCom&quot;&gt;
+                                &lt;ul class=&quot;NavMenu&quot;&gt;
+                                    &lt;img id=&quot;logo&quot; src=&quot;Images/Logo.png&quot;&gt;
+                                    &lt;li&gt; Portfolio &lt;/li&gt;
+                                    &lt;li&gt; About &lt;/li&gt;
+                                    &lt;li&gt; Photography &lt;/li&gt;
+                                    &lt;li&gt;Contact Info &lt;/li&gt;
+                                &lt;/ul&gt;
+                            &lt;/div
+                        </pre>
+                    </div>
+                    
+                    <div class="css">
+                        <pre>#NavBarCom{
+    
+                            background: linear-gradient(133deg, #800040 0%,   #C04848 100%);
+                            display: flex;
+                            justify-content: space-between;
+                            align-items: center;
+                            width: 90%;
+                            height: 80px;
+                            padding: 30px;
+
+                        }
+
+                        .NavMenu li{
+
+                            text-transform: uppercase;
+                            color: white;
+                            font-weight: 400;
+                            display: inline-block;
+                            margin-left: 20px;
+                            margin-top: 10px;
+                            padding: 15px;
+
+                        }
+
+                        .NavMenu li:hover{
+
+                            text-transform: uppercase;
+                            color: white;
+                            text-decoration: underline;
+                            font-weight: 400;
+                            display: inline-block;
+                            margin-left: 20px;
+                            margin-top: 10px;
+                            padding: 15px;
+                            opacity: 0.5;
+                            border-radius: 15px;  
+                        }
+
+                        #logo {
+
+                            margin-top 200px;
+                            padding 100px;
+                            opacity: 0.9;
+                            width: 300px;
+                            height: auto;
+                        } </pre>
+                    </div>
+                    
+                    
+                </div>
+                
+               
+            </main>
+        </div> <!--wrapper-->
+    </body>
+</html>
